@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To My Dearest Father ♡</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4eee5;
+  color: #695448;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 55px 25px;
+}
+
+.small {
+  letter-spacing: 4px;
+  font-size: 10px;
+  color: #aa8878;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 38px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #987e70;
+  line-height: 2;
+}
+
+.envelope {
+  margin: 55px auto 20px;
+  width: 210px;
+  height: 135px;
+  background: #d9b9a8;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 12px 25px #bba99b66;
+}
+
+.envelope:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-top: 85px solid #c89e8b;
+  transform-origin: top;
+  transition: transform .8s;
+  z-index: 2;
+}
+
+.envelope.open:before {
+  transform: rotateX(180deg);
+}
+
+.heart {
+  position: absolute;
+  z-index: 3;
+  top: 48px;
+  left: 88px;
+  color: #fff5ec;
+  font-size: 30px;
+}
+
+.tap {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #a48778;
+  margin-bottom: 45px;
+}
+
+.letter {
+  display: none;
+  background: #fffaf2;
+  padding: 30px 24px;
+  text-align: left;
+  line-height: 2;
+  box-shadow: 0 8px 25px #a38c7730;
+  border: 1px solid #e8d9c9;
+  animation: appear 1s;
+}
+
+.letter.show {
+  display: block;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.letter h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+}
+
+.letter p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  width: 100%;
+  margin: 15px 0;
+  border: 7px solid white;
+  box-shadow: 0 3px 12px #9b827044;
+}
+
+.caption {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.signature {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-align: right;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 55px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #a58b7b;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <p class="small">A LITTLE LETTER FROM YOUR DAUGHTER</p>
+
+  <h1>To My Dearest Father ♡</h1>
+
+  <p class="subtitle">
+    For the man who will always have<br>
+    a special place in my heart.
+  </p>
+
+  <div class="envelope" id="envelope" onclick="openLetter()">
+    <div class="heart">♥</div>
+  </div>
+
+  <p class="tap" id="tap">TAP THE ENVELOPE TO OPEN</p>
+
+  <div class="letter" id="letter">
+
+    <h2>Dear Ayah,</h2>
+
+    <p>
+      There are so many things I wish I could tell you,
+      but sometimes I just don't know how to put them
+      into words.
+    </p>
+
+    <p>
+      Yah, aku tahu Ayah sudah melakukan banyak hal
+      untukku. Aku tahu Ayah punya caramu sendiri
+      untuk menunjukkan rasa sayang. And I will
+      always be grateful for everything.
+    </p>
+
+    <p>
+      Tapi di balik semua rasa sayang itu, ada beberapa
+      hal yang terkadang membuatku sedih.
+      Sometimes, I wish you could understand my feelings
+      without me having to explain everything.
+    </p>
+
+    <p>
+      Aku tidak pernah berharap Ayah menjadi seseorang
+      yang sempurna. Aku hanya ingin kita bisa saling
+      memahami, lebih banyak mendengarkan, dan tidak
+      membiarkan kesalahpahaman menjauhkan kita.
+    </p>
+
+    <p>
+      I may not always say it, and I may not always
+      show it, but I love you, Ayah.
+      Even when we disagree, you will always be
+      an important part of my life.
+    </p>
+
+    <p>
+      Thank you for being my first hero,
+      for every little thing you've done,
+      and for being my father.
+    </p>
+
+    <img src="foto-kita.jpg" class="photo" alt="Our favorite memory">
+
+    <div class="caption">
+      One of my favorite memories with you ♡
+    </div>
+
+    <p>
+      I hope someday we can understand each other
+      a little better. And I hope you always know
+      how much you mean to me.
+    </p>
+
+    <p>
+      No matter how old I get, I'll always be
+      your daughter.
+    </p>
+
+    <div class="signature">
+      With all my love,<br>
+      Your daughter ♡
+    </div>
+
+  </div>
+
+  <footer>
+    Made with love, just for you. ♡
+  </footer>
+
+</div>
+
+<script>
+function openLetter() {
+  document.getElementById('envelope').classList.add('open');
+  document.getElementById('letter').classList.add('show');
+  document.getElementById('tap').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
