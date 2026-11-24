@@ -242,24 +242,40 @@ footer {
   With all my love,<br>
   Your daughter ♡
 </div>
+    
 
 
     
   </div>
+  
 
   <footer>
     Made with love, just for you. ♡
   </footer>
 
 </div>
+    <div id="youtubeMusic" style="display:none;"></div>
 
 <script>
 function openLetter() {
   document.getElementById('envelope').classList.add('open');
   document.getElementById('letter').classList.add('show');
   document.getElementById('tap').style.display = 'none';
+
+  document.getElementById('youtubeMusic').innerHTML = `
+    <iframe
+      width="1"
+      height="1"
+      src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1"
+      allow="autoplay; encrypted-media"
+      frameborder="0">
+    </iframe>
+  `;
 }
 </script>
+
+
+
 
 </body>
 </html>
